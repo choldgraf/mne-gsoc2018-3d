@@ -1,0 +1,14 @@
+name: mne-gsoc
+
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - ipyvolume
+  - matplotlib
+  - pythreejs
+  - pysurfer
+  - pip:
+    - mne
+    - nibabel
